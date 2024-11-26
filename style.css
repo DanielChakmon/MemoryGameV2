@@ -1,0 +1,56 @@
+#cardContainer{
+    display: flex; 
+    gap: 6px;
+    padding: 7px;
+    margin-top: 2em;
+    flex-wrap: wrap;
+}
+
+
+.Card{
+    position: "relative";
+    margin: "10px";
+}
+
+.gameInfo{
+    color: black;
+    font-family: fantasy;
+    flex: 1;
+    text-align: center;
+    font-size: max(2vw,20px);
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.infoBox{
+    display: flex;
+    justify-content: space-between;
+    width: 90%;
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-top: 1em;
+    margin-bottom: 1em;
+
+}
+
+
+.congratsBox{
+
+    margin-top: 5em;
+
+    margin-right: 25%;
+    margin-left: 25%;
+    
+
+}
+
+
+.congratsInfo{
+    color: black;
+    font-family: fantasy;
+    font-size: max(2vw,20px);
+    overflow: hidden;
+    text-overflow: ellipsis;
+    text-align: center;
+}
