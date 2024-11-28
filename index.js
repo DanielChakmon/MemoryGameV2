@@ -10,7 +10,6 @@ function winState(){
     if(countOfFoundPairs==numOfPairs){
         clearInterval(refresh)
         setTimeout(function(){
-            countOfFoundPairs=0
             document.getElementById("game").hidden= true
             let congratsBox = document.getElementById("congratsBox")
             congratsBox.hidden= false
@@ -82,7 +81,7 @@ function startGame(){
 
     document.getElementById("congratsBox").hidden= true
     document.getElementById("game").hidden= false
-
+    countOfFoundPairs=0
     if(cards.length>0){
         while(cards.length>0){
             cards.pop()
